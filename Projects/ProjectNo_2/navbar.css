@@ -1,0 +1,54 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 2px;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+ .Logo{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#name{
+    font-size: 30px;
+}
+#position{
+    margin-left: 25px;
+}
+ 
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li a{ 
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.icons{
+    display: flex;
+    
+}
+.icons .icon {
+    margin: 5px;
+    font-size: 23px;
+}
+#instagram{
+   color: rgb(223, 98, 119)
+}
+#linkedin{
+    color: blue;
+}
+#youtube{
+    color: red;
+}
